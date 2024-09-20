@@ -22,11 +22,18 @@
 
     body {
       width: 100%;
-      height: 100vh;
+      height: 110vh;
       background-color: hsl(47, 88%, 63%);
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      height: 100vh;
+      display: flex;
       justify-content: center;
       align-items: center;
     }
@@ -102,6 +109,10 @@
       font-weight: bold;
     }
 
+    .attribution {
+      height: ;
+    }
+
     @media  screen and (min-width: 1440px) {
       .blog {
         width: 384px;
@@ -122,23 +133,26 @@
 </head>
 <body>
 
-  <div class="blog">
-    <img src="./assets/images/illustration-article.svg" alt="">
-    <div class="teks">
-      <div class="katagori">
-        <h1>Learning</h1>
+  <div class="container">
+    <div class="blog">
+      <img src="./assets/images/illustration-article.svg" alt="">
+      <div class="teks">
+        <div class="katagori">
+          <h1>Learning</h1>
+        </div>
+        <p>Published 21 Dec 2023</p>
+        <h1 class="type">HTML & CSS foundations</h1>
+        <p class="isi">These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
       </div>
-      <p>Published 21 Dec 2023</p>
-      <h1 class="type">HTML & CSS foundations</h1>
-      <p class="isi">These languages are the backbone of every website, defining structure, content, and presentation.
-      </p>
-    </div>
-
-    <div class="author">
-      <img src="./assets/images/image-avatar.webp" alt="">
-      <p>Greg Hooper</p>
+  
+      <div class="author">
+        <img src="./assets/images/image-avatar.webp" alt="">
+        <p>Greg Hooper</p>
+      </div>
     </div>
   </div>
+  
 
 
 
